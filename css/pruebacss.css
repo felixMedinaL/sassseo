@@ -1,0 +1,111 @@
+h1 {
+  font-family: "Roboto", sans-serif/1; }
+
+h2 {
+  font-family: "Roboto", sans-serif/2; }
+
+h3 {
+  font-family: "Roboto", sans-serif/3; }
+
+h4 {
+  font-family: "Roboto", sans-serif/4; }
+
+/* mixing */
+.red-fa-facebook {
+  color: #051988; }
+
+.red-twitter {
+  color: #007aec; }
+
+.red-instagram {
+  color: #fa00e5; }
+
+/* extender */
+.card, .card-infografia {
+  background-color: #00ADB5;
+  width: 300px;
+  height: 270px;
+  margin: auto;
+  color: white; }
+
+.card-infografia {
+  color: burlywood; }
+
+body {
+  background: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Roboto', sans-serif; }
+  body p {
+    font-family: 'Open Sans Condensed', sans-serif; }
+
+/* nav */
+nav {
+  background-color: #222831; }
+  nav navbar-brand {
+    background-color: white; }
+  nav ul {
+    margin-left: auto; }
+    nav ul li {
+      padding-left: 15px;
+      padding-bottom: 1px; }
+      nav ul li a {
+        background: #00ADB5;
+        border: 1px solid #00ADB5;
+        border-radius: 8px;
+        text-decoration: none; }
+      nav ul li:hover {
+        background-color: #EEEEEE; }
+
+/*banner */
+.banner {
+  background: -webkit-linear-gradient(to right, rgba(255, 0, 128, 0.473), rgba(255, 140, 0, 0.623), rgba(64, 224, 208, 0.603)), url("img/photo-1502945015378-0e284ca1a5be.jpg");
+  background: linear-gradient(to right, rgba(255, 0, 128, 0.486), rgba(255, 140, 0, 0.603), rgba(64, 224, 208, 0.603)), url("img/photo-1502945015378-0e284ca1a5be.jpg");
+  background-size: cover;
+  height: 550px;
+  object-fit: cover;
+  color: white;
+  padding-top: 180px;
+  margin-bottom: 0px; }
+  .banner h1 {
+    text-align: center;
+    font-size: 60px;
+    margin: 0px; }
+  .banner p {
+    text-align: right;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 5px;
+    padding-right: 120px; }
+  .banner .wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0px; }
+
+section {
+  padding-top: 100px;
+  margin: auto; }
+  section h2 {
+    text-align: center;
+    padding-top: 30px; }
+
+.card, .card-infografia {
+  background-color: #00ADB5;
+  width: 300px;
+  height: 270px;
+  margin: auto;
+  color: white; }
+  .card:hover, .card-infografia:hover {
+    transform: scale(1.1);
+    box-shadow: 0, 0, 0, 0.2;
+    -webkit-box-shadow: 6px 6px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 6px 6px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 6px 6px 3px -1px rgba(0, 0, 0, 0.75); }
+  .card img, .card-infografia img {
+    width: 100%;
+    height: 160px; }
+
+footer {
+  background-color: #222831; }
+
+.container {
+  padding-bottom: 30px; }
